@@ -43,6 +43,45 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Wembley Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://en.wikipedia.org/w/index.php?search=wembley&title=Special%3ASearch&fulltext=1&ns0=1",
+					"protocol": "https",
+					"host": [
+						"en",
+						"wikipedia",
+						"org"
+					],
+					"path": [
+						"w",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "wembley"
+						},
+						{
+							"key": "title",
+							"value": "Special%3ASearch"
+						},
+						{
+							"key": "fulltext",
+							"value": "1"
+						},
+						{
+							"key": "ns0",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
